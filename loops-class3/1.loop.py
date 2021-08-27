@@ -23,28 +23,28 @@ for name in names:
         continue #continue, pass
     print(name)
 
-#print("All names were printed!")
+print("All names were printed!")
 
-#
-# # printing partial loops
-# fruits = ["Watermelon", "Banana", "Apple", "Pineapple", "Strawberry"]
-# for fruit in fruits:
-#     print(fruit)
-#
-# colors = ["Red", "Blue", "Green", "Yellow", "Grey"]
-# for color in colors[1:4]:
-#     print(color, end=" ")
-#
-# print()
-# # While loops
-# counter = 0
-# while counter <= 3:
-#     counter += 1       # note the use of counter # what if we comment out this line?
-#     print(counter)
-#
-#
-# # While loops
-# counter = 0
-# while counter <= 3:
-#     print(counter)
-#     counter += 1
+
+# printing partial loops
+fruits = ["Watermelon", "Banana", "Apple", "Pineapple", "Strawberry"]
+for fruit in fruits:
+    print(fruit)
+
+colors = ["Red", "Blue", "Green", "Yellow", "Grey"]
+for color in colors[1:4]:
+    print(color, end=" ")
+
+print()
+# While loops
+counter = 0
+while counter <= 3:
+    counter += 1       # note the use of counter # what if we comment out this line?
+    print(counter)
+
+
+# While loops
+counter = 0
+while counter <= 3:
+    print(counter)
+    counter += 1
