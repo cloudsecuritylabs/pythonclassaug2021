@@ -1,7 +1,7 @@
 import socket
 try:
      mysocket = socket.socket()
-     mysocket.bind(('0.0.0.0', 1337))
+     mysocket.bind(('0.0.0.0', 1234))
      mysocket.listen(1)
      print("waiting for connection...")
      c, addr = mysocket.accept()

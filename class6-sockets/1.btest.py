@@ -7,7 +7,7 @@ import socket
 # nc -l -p 3333
 
 socket_new = socket.socket()
-socket_new.connect(("localhost", 3333))
+socket_new.connect("localhost", 3333)
 socket_new.sendall("hello from python!".encode())
 m=socket_new.recvmsg(1024)
 print(m)
